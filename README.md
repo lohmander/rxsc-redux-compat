@@ -20,6 +20,8 @@ $ yarn add rxsc-redux-compat
 
 ## Usage
 
+> Obviously you don't wanna use this in production.
+
 ```javascript
 import { createMirroredReduxStore } from 'rxsc-redux-compat';
 import devToolsEnhancer from 'remote-redux-devtools';
